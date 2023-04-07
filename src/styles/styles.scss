@@ -1,0 +1,28 @@
+@import './fonts';
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+
+    background-image: url('../assets/images/webpack-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #222222;
+
+    width: 100vh;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+video {
+    max-width: 400px;
+    max-height: 200px;
+}

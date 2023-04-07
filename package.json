@@ -1,0 +1,37 @@
+{
+  "name": "my-webpack-assembly",
+  "version": "1.0.0",
+  "description": "My Webpack Assembly",
+  "private": "true",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve --open",
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "prod": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "keywords": [
+    "webpack",
+    "javacript"
+  ],
+  "author": "daniels <d@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "terser-webpack-plugin": "^5.3.7",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.3", 
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  }
+}
